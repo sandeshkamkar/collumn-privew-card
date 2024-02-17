@@ -5,7 +5,7 @@
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
-<a href=""https://sandeshkamkar.github.io/collumn-privew-card/>
+<a href="https://sandeshkamkar.github.io/collumn-privew-card/">
 Solution Website : Demo </a>
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
