@@ -1,0 +1,105 @@
+:root{
+--Brightorange: hsl(31, 77%, 52%);
+--Darkcyan: hsl(184, 100%, 22%);
+--Verydarkcyan: hsl(179, 100%, 13%);
+--Transparentwhite: hsla(0, 0%, 100%, 0.75);
+--Verylightgray : hsl(0, 0%, 95%);
+--Transparentwhite: hsla(0, 0%, 100%, 0.2);
+--Verylightgray: hsl(0, 0%, 95%);
+
+}
+
+body{
+    background-color: var(--Transparentwhite);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+    
+
+}
+section{
+    padding-left: 15px;
+    width: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    }
+.sedon{
+    background-color: var(--Brightorange);
+    border-top-left-radius:7px ;
+    border-bottom-left-radius:7px ;
+}
+.suvs
+{
+    background-color: var(--Darkcyan);
+}
+.luxury{
+    background-color: var(--Verydarkcyan);
+    border-radius: 0px 7px 7px 0;
+
+}
+
+button {
+    width: 125px;
+    
+    border-radius: 10px;
+    padding: 10px;
+    background-color:var(--Verylightgray);
+    border-color: white;
+}
+.btn_sedon{
+    color:var(--Brightorange)
+}
+.btn_suvs{
+    color: var(--Darkcyan);
+}
+.btn_luxry{
+    color:var(--Verydarkcyan)
+}
+p{
+    text-align: justify;
+    padding-right: 10px;
+    color: white;
+}
+button:hover{
+    background-color:var(--Transparentwhite);
+    border-color: white;
+    color: white;
+
+}
+@media screen and (max-width:800px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    main{
+        
+        display: flex;
+            overflow: scroll;
+            width: 100%;
+            flex-direction: column;
+
+    }
+    .sedon{
+        border-radius:7px 7px 0 0;
+    }
+    section{
+        
+        width: 90%;
+    }
+    picture{
+        margin-top: 5px;
+    }
+    p{
+        padding: 5px;
+    }
+}
+
